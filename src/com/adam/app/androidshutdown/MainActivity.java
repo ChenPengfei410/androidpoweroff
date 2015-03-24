@@ -106,6 +106,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		switch(arg0.getId()) {
 		case R.id.btn_power_off:
 			PowerOff();
+//			ShutDown();
 			break;
 		case R.id.btn_reboot:			
 			Reboot();
